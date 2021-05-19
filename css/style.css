@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Nunito Sans", sans-serif;
+  src: url("../fonts/NunitoSans-Bold.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Bold.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans", sans-serif;
+  src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans", sans-serif;
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input_icon {
+  width: 480px;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
+
+
+}
+
+.header-content::before{
+  width: 17px;
+  height: 15px;
+  content: "";
+  background-image: url("../img/oy.png");
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.header-content{
+  display: flex;
+}
+.site-header{
+  background-color: #FFFFFF;
+}
+.site-main {
+  background-color: #F2F2F2F2;
+}
+
+.site-item {
+  width: 264px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.div-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 26px;
+  color:  #111517;;
+}
+
+.main-content {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.region {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.capital {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.usa-img {
+  width: 264px;
+}
+
+.main-all {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainn-all {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 67px;
+}
